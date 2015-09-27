@@ -46,6 +46,6 @@ group :development do
 end
 
 gem 'rails_admin'
-gem "paperclip", "~> 4.3"
+gem "paperclip"
 
 
