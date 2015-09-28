@@ -50,6 +50,6 @@ gem 'rails_admin'
 gem "paperclip"
 gem 'rails_12factor', group: :production
 gem 'pg'
-
+gem 'rmagick', group: :production
 
 
