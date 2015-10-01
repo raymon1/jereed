@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
   <title>Jereed</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.ico' %>
 </head>
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+      <!-- Preloader -->
+      <div id="preloader">
+         <div id="load"></div>
+      </div>
+      <main role="main">
+         <%= yield %>
+      </main>
 
-<%= yield %>
-
-</body>
+      <section id="contact">
+         <footer>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 col-lg-12">
+                     <div class="wow" data-wow-delay="0.4s">
+                        <div class="page-scroll marginbot-30">
+                           <a href="#intro" id="totop" class="btn btn-circle">
+                           <i class="fa fa-angle-double-up animated"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <p><a href="<%= root_path %>" target="_blank" style="color: white">Jereed</a> | <a href="http://egy-com.org/" target="_blank" style="color: white">EGYCOM</a></p>
+                     
+                     <p>Postal Code: 11471</p>
+                     <p>Telephone/Fax: +20222614981</p>
+                     <p> Mobile: +201009103131, +201012480060</p>
+                     <p><a href="https://www.google.com.eg/maps/place/El+Fadl+Ebn+Rabie+Rd,+Al+Hay+as+Sabea,+Nasr+City,+Cairo+Governorate/@30.0456749,31.3265693,17z/data=!3m1!4b1!4m2!3m1!1s0x14583ef3f59015ef:0xf987682c3e9447b5?hl=en" target="_blank" style="color: white">9 El-Fadl Ebn Rabie st., Seventh District, Nasr City, Cairo</a></p>
+                     <!--
+                        <ul class="company-social" style="text-align: center">
+                          <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                          <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        
+                        </ul> 
+                        -->
+                     <p>
+                        info@egy-com.org
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </section>
 </html>
