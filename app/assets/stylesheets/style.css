@@ -321,7 +321,7 @@ hr {
 }
 .jumbotron {
 
-  background: url(jumbotron/main.jpg) no-repeat center center fixed; 
+  background: url(http://i.imgur.com/ElqBSCn.jpg) no-repeat center center fixed; 
   
   background-size: cover;
   width:100%;
@@ -329,29 +329,6 @@ hr {
 
 }
 
-.intro-interview{
- background: url(jumbotron/interview.jpg) no-repeat top center; 
-}
-
-.intro-pres{
- background: url(jumbotron/presentation.jpg) no-repeat top center; 
-}
-
-.intro-sop{
- background: url(jumbotron/sop.jpg) no-repeat top center; 
-}
-
-.intro-cscw{
- background: url(jumbotron/cscw.jpg) no-repeat top center; 
-}
-
-.intro-TOEFLspeaking{
- background: url(jumbotron/TOEFLspeaking.jpg) no-repeat top center; 
-}
-
-.intro-TOEFLwriting{
- background: url(jumbotron/TOEFLwriting.jpg) no-repeat top center; 
-}
 
 #intro.intro {
 	padding:15% 0 0 0;
