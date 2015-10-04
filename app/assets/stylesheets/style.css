@@ -281,6 +281,16 @@ hr {
 	margin-bottom: 20px;
 }
 
+#reach_us {
+
+  background-color: #99cfb4;
+  text-align:center;
+}
+
+#reach_us a {
+  color: #666;
+}
+
 
 /* --- section bg var --- */
 
