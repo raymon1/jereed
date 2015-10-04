@@ -30,3 +30,19 @@
    </div>
    <!-- /.container -->
 </nav>
+
+<div class="main">
+   <div class="container">
+      <% @categories.each do |category| %>
+         <div class="col-sm-12 col-md-4">
+            <div class="thumbnail">
+               <%= image_tag category.image.url() %>
+            
+            <div class="caption">
+               <p><%= category.name%></p>
+               <p><%= category.description%></p>
+            </div>
+         </div>
+      <% end %>
+   </div>
+</div>   
