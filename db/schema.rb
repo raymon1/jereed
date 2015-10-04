@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 20150927112317) do
 
   create_table "products", force: :cascade do |t|
     t.string   "name"
+    t.string   "model_link"
     t.text     "description"
     t.integer  "category_id"
     t.datetime "created_at",         null: false
