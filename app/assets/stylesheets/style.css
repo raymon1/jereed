@@ -284,7 +284,9 @@ hr {
 #reach_us {
 
   background-color: #99cfb4;
-  text-align:center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #reach_us a {
